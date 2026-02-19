@@ -16,4 +16,3 @@ car = Car()
 
 print(car.brand)
 print(car.year)
-#
