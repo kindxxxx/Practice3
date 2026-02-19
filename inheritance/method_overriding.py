@@ -1,12 +1,10 @@
-class Person:
-    def __init__(self, name):
-        self.name = name
+class Animal:
+    def sound(self):
+        print("Some sound")
 
-class Student(Person):
-    def __init__(self, name, age):
-        super().__init__(name)
-        self.age = age
+class Dog(Animal):
+    def sound(self):
+        print("Bark")
 
-s = Student("Saveliy", 18)
-print(s.name)
-print(s.age)
+d = Dog()
+d.sound()
